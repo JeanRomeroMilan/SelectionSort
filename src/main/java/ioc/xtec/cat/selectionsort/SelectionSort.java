@@ -14,8 +14,9 @@ public class SelectionSort {
      * @param arr L'array d'enters a ordenar.
      */
     public void sort(int[] arr) {
+        System.out.println("Jean Romero Milan");
+        System.out.println("He aprés molt fent el mòdul 8 de DAW encara que hagi estat dur!!!");
         int n = arr.length;
-
         for (int i = 0; i < n - 1; i++) {
             int minIndex = i;
             for (int j = i + 1; j < n; j++) {
